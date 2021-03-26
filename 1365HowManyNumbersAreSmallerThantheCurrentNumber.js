@@ -12,4 +12,4 @@ for (let i = 0; i < nums.length; i++) {
     output = [...output, count]
 }
 
-console.log(output)
+return output;
