@@ -15,9 +15,6 @@ for (let i = 0; i < indices.length; i++) {
     return a[0] - b[0];
   })
 
-  console.log(temp)
-
-
  for (let j = 0; j < temp.length; j++) {
      const el = temp[j][1];
      _string = _string + el

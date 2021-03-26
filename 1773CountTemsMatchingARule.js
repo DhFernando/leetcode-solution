@@ -14,4 +14,4 @@ items.forEach(el => {
     }
 });
 
-console.log(count)
+return count
