@@ -9,5 +9,4 @@ image.forEach(el => {
     })
     reverse = [ ...reverse , temp ]
 });
-console.log(reverse);
-if( reverse === [[1,0,0],[0,1,0],[1,1,1]] ){ console.log("L") }
+return reverse; 
