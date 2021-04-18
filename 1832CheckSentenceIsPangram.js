@@ -1,7 +1,7 @@
-const sentence = "leetcode"
+const sentence = "thequickbrownfoxjumpsoverthelazydog";
 const alphabet = ('abcdefghijklmnopqrstuvwxyz').split('')
 
-let res = 'true'
+let res = true
 
 let arr =  sentence.split(' ')
 
@@ -15,7 +15,7 @@ newSen = newSen.toLowerCase().split('');
 
 alphabet.forEach(el =>{
     if( newSen.indexOf(el) === -1 ) {
-        res = 'false'
+        res = false
         return
     }
 })
