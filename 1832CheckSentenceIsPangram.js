@@ -20,5 +20,5 @@ alphabet.forEach(el =>{
     }
 })
 
-console.log( res ) 
+console.log( res )  
 
