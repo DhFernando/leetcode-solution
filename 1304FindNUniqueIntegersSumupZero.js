@@ -1,13 +1,7 @@
-const n = 1;
-
-let arr = []
-
-for (let i = 1; i <= Math.abs(n/2); i++) {
-    arr = [ ...arr , i , -1*i ]
+var n =  3;
+function  multiplyByTwo(number){
+    var ans = 2 * number;
+    return ans;
 }
-
-if(n%2 === 0){
-    console.log( [ ...arr ] )
-}else{
-    console.log( [ ...arr , 0] )
-}
+var answerOne = multiplyByTwo(n);
+var answerTwo = multiplyByTwo(2);
